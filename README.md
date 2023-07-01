@@ -1,25 +1,22 @@
 # Certichain
 Store the IPFS hash[for certificates] securely in blockchain
-Running project starts on 31/05/2020
+Running project starts on 07/06/2023
 
 ## How to use
-git clone the branch TruffleReact branch
+git clone the branch master branch
 
 --- 
-Note : Do not collapse any terminal
+
 
 ##### terminal1
 ```
     1.  npm install
-    2.  truffle develop
+    
 ```
-##### terminal2
-```terminal2
-    1. truffle migrate --reset --network ropsten
+
 ```
-#### Go to Metamask
-##### switch to custom network and place the config you got from truffle develop command (most probably will run on 8545 or 7545)
-##### import some accounts with their private key mentioned in truffle develop . To make it work remember to import the first account.
+#### Go to Metamask and connect to ganache
+### connect remix to metamask by environment in the remix
 
 ##### terminal3
 ```terminal3
@@ -32,6 +29,6 @@ will take you directly on the webpage of this react app
 and will ask for transaction confirmation from metamask.
 
 
-__Backend completed__ on 24/10/2020
+__Backend completed__ on 01/07/2023
 
 __integration and react components on__
